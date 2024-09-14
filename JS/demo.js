@@ -1,0 +1,11 @@
+let a = "Hello JS ES6";
+let tag = document.getElementById("demo");
+tag.innerHTML = a;
+let st = tag.style;
+st.backgroundColor = "red";
+st.color = "white";
+st.display = "inline";
+st.position = "absolute"
+st.margin = "50px";
+st.padding = "10px";
+st.border = "2px dotted black";
