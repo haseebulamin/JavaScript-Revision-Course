@@ -65,3 +65,14 @@ console.log("typeof isLoggedIn = ", typeof isLoggedIn); // "boolean"
 
 let arr = [1, 2, 3];
 console.log("arr instanceof Array = ", arr instanceof Array);  // true
+
+// string operators
+let firstName = "John";
+let lastName = "Doe";
+
+console.log("firstName + ' ' + lastName = ", firstName + ' ' + lastName);  // "John Doe"
+
+let greeting = "Hello";
+greeting += " World";
+console.log("greeting += ' World' = ", greeting);  // "Hello World"
+
