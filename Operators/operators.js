@@ -55,3 +55,13 @@ console.log("m >>> 1 = ", m >>> 1); // Unsigned right shift: 2
 let age = 18;
 let canVote = age >= 18 ? 'Yes' : 'No';
 console.log("age >= 18 ? 'Yes' : 'No' = ", canVote);  // "Yes"
+
+// Type Operators
+let name = "John";
+let isLoggedIn = true;
+
+console.log("typeof name = ", typeof name);             // "string"
+console.log("typeof isLoggedIn = ", typeof isLoggedIn); // "boolean"
+
+let arr = [1, 2, 3];
+console.log("arr instanceof Array = ", arr instanceof Array);  // true
