@@ -1,4 +1,5 @@
-// arithmatic 
+// arithmatic Operators
+console.log("arithmatic operators") 
 let i = 9;
 console.log("9+3 = ", 9+3);
 console.log("9-3 = ", 9-3);
@@ -9,6 +10,7 @@ console.log("9-- = ", i--);
 console.log("--9 = ", --i);
 
 // Assignment Operators
+console.log("Assignment operators") 
 let x = 10;
 x += 5;
 console.log("x += 5 = ", x);  // 15
@@ -24,6 +26,7 @@ x **= 2;
 console.log("x **= 2 = ", x);  // 0
 
 // Comparison Operators
+console.log("Comparison operators") 
 let y = 5, z = '5';
 console.log("y == z = ", y == z);    // Equal (value): true
 console.log("y === z = ", y === z);  // Strict Equal (type and value): false
@@ -35,12 +38,14 @@ console.log("y >= 5 = ", y >= 5);    // Greater than or equal: true
 console.log("y <= 5 = ", y <= 5);    // Less than or equal: true
 
 //  Logical Operators
+console.log("logical operators") 
 let p = true, q = false;
 console.log("p && q = ", p && q);  // AND: false
 console.log("p || q = ", p || q);  // OR: true
 console.log("!p = ", !p);          // NOT: false
 
 // Bitwise Operators
+console.log("bitwise operators") 
 let m = 5;  // 101 in binary
 let n = 1;  // 001 in binary
 console.log("m & n = ", m & n);  // AND: 1
@@ -52,11 +57,13 @@ console.log("m >> 1 = ", m >> 1); // Right shift: 2
 console.log("m >>> 1 = ", m >>> 1); // Unsigned right shift: 2
 
 // Ternary Operator
+console.log("ternary operators") 
 let age = 18;
 let canVote = age >= 18 ? 'Yes' : 'No';
 console.log("age >= 18 ? 'Yes' : 'No' = ", canVote);  // "Yes"
 
 // Type Operators
+console.log("type operators") 
 let name = "John";
 let isLoggedIn = true;
 
@@ -67,6 +74,7 @@ let arr = [1, 2, 3];
 console.log("arr instanceof Array = ", arr instanceof Array);  // true
 
 // string operators
+console.log("string operators") 
 let firstName = "John";
 let lastName = "Doe";
 console.log("firstName + ' ' + lastName = ", firstName + ' ' + lastName);  // "John Doe"
@@ -75,7 +83,8 @@ let greeting = "Hello";
 greeting += " World";
 console.log("greeting += ' World' = ", greeting);  // "Hello World"
 
-// unary operators 
+// unary operators
+console.log("unary operators") 
 let count = 5;
 console.log("++count = ", ++count);  // Pre-increment: 6
 console.log("count++ = ", count++);  // Post-increment: 6
