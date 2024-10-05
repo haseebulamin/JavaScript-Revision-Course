@@ -50,3 +50,8 @@ console.log("~m = ", ~m);        // NOT: -6
 console.log("m << 1 = ", m << 1); // Left shift: 10
 console.log("m >> 1 = ", m >> 1); // Right shift: 2
 console.log("m >>> 1 = ", m >>> 1); // Unsigned right shift: 2
+
+// Ternary Operator
+let age = 18;
+let canVote = age >= 18 ? 'Yes' : 'No';
+console.log("age >= 18 ? 'Yes' : 'No' = ", canVote);  // "Yes"
