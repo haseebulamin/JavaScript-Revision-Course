@@ -33,3 +33,20 @@ console.log("y > 3 = ", y > 3);      // Greater than: true
 console.log("y < 3 = ", y < 3);      // Less than: false
 console.log("y >= 5 = ", y >= 5);    // Greater than or equal: true
 console.log("y <= 5 = ", y <= 5);    // Less than or equal: true
+
+//  Logical Operators
+let p = true, q = false;
+console.log("p && q = ", p && q);  // AND: false
+console.log("p || q = ", p || q);  // OR: true
+console.log("!p = ", !p);          // NOT: false
+
+// Bitwise Operators
+let m = 5;  // 101 in binary
+let n = 1;  // 001 in binary
+console.log("m & n = ", m & n);  // AND: 1
+console.log("m | n = ", m | n);  // OR: 5
+console.log("m ^ n = ", m ^ n);  // XOR: 4
+console.log("~m = ", ~m);        // NOT: -6
+console.log("m << 1 = ", m << 1); // Left shift: 10
+console.log("m >> 1 = ", m >> 1); // Right shift: 2
+console.log("m >>> 1 = ", m >>> 1); // Unsigned right shift: 2
