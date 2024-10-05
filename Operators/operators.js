@@ -69,10 +69,19 @@ console.log("arr instanceof Array = ", arr instanceof Array);  // true
 // string operators
 let firstName = "John";
 let lastName = "Doe";
-
 console.log("firstName + ' ' + lastName = ", firstName + ' ' + lastName);  // "John Doe"
 
 let greeting = "Hello";
 greeting += " World";
 console.log("greeting += ' World' = ", greeting);  // "Hello World"
+
+// unary operators 
+let count = 5;
+console.log("++count = ", ++count);  // Pre-increment: 6
+console.log("count++ = ", count++);  // Post-increment: 6
+console.log("count after count++ = ", count);  // 7
+
+console.log("--count = ", --count);  // Pre-decrement: 6
+console.log("count-- = ", count--);  // Post-decrement: 6
+console.log("count after count-- = ", count);  // 5
 
