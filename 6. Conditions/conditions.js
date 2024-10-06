@@ -1,11 +1,12 @@
 // if 
+console.log("if")
 let age = 18;
 if(age<=18){
     console.log("Age less than 18")
 }
 
 // if else
-let age1 = 16;
+console.log("if else")
 if (age1 >= 18) {
   console.log("You are eligible to vote.");
 } else {
@@ -13,8 +14,8 @@ if (age1 >= 18) {
 }
 
 // if else if 
+console.log("if else if")
 let marks = 85;
-
 if (marks >= 90) {
   console.log("Grade: A");
 } else if (marks >= 80) {
@@ -26,8 +27,8 @@ if (marks >= 90) {
 }
 
 // Switch 
+console.log("switch")
 let day = 3;
-
 switch (day) {
   case 1:
     console.log("Monday");
@@ -47,3 +48,8 @@ switch (day) {
   default:
     console.log("Invalid day");
 }
+
+// Ternary 
+console.log("ternary")
+let canVote = (age >= 18) ? "Yes" : "No";
+console.log(canVote); // Output: Yes
