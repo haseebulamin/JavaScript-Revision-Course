@@ -19,3 +19,10 @@ function multi(c,d) {
 }
 let x = multi(3,4);
 console.log(x);
+
+// function parameter
+console.log("function declaration");
+function para(a) {
+    console.log(a)
+}
+para("this is parameterize function");
