@@ -21,8 +21,15 @@ let x = multi(3,4);
 console.log(x);
 
 // function parameter
-console.log("function declaration");
+console.log("function parameter");
 function para(a) {
     console.log(a)
 }
 para("this is parameterize function");
+
+// function default parameter
+console.log("function default parameter");
+function defaultPara(name = "World") {
+    console.log(`hello ${name}`)
+}
+defaultPara("Haseeb");
