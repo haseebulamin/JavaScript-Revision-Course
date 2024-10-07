@@ -11,3 +11,11 @@ const square = (a)=>{
     console.log(a*a);
 }
 square(5);
+
+// function return value
+console.log("function return value");
+function multi(c,d) {
+    return c*d;
+}
+let x = multi(3,4);
+console.log(x);
