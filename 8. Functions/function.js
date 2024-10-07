@@ -5,3 +5,9 @@ function add(a,b) {
 }
 add(6,8);
 
+// function expression
+console.log("function expression");
+const square = (a)=>{
+    console.log(a*a);
+}
+square(5);
