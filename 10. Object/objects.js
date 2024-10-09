@@ -1,4 +1,5 @@
 /// 1
+console.log("simple object");
 let person = {
     name: "Haseeb",
     age: 18,
@@ -21,3 +22,15 @@ for(let i in car){
     console.log(i, ": ", car[i]);
 }
 console.log(car);
+
+// object with new keyword
+console.log("object with new object keyword");
+let box = new Object();
+
+box.height = "90m";
+box.width = "70m";
+
+for(let i in box){
+    console.log(i, ": ", box[i]);
+}
+console.log(box);
