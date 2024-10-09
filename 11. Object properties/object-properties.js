@@ -19,3 +19,7 @@ console.log("add property");
 men.age = "18";
 console.log(men);
 
+// delete property
+console.log("delete property");
+delete men.age;
+console.log(men);
