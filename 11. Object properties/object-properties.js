@@ -13,3 +13,9 @@ console.log(name1);
 let x = "name";
 let name2 =  men[x];
 console.log(name2);
+
+// add property
+console.log("add property");
+men.age = "18";
+console.log(men);
+
