@@ -10,3 +10,6 @@ const green = ()=>{
     ele.style.color = "green";
 }
 
+const Goalert = ()=>{
+    alert("I am mouse over")
+}
