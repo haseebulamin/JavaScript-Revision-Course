@@ -45,3 +45,12 @@ console.log(fruits);
 console.log("shift")
 fruits.shift()
 console.log(fruits);
+
+// finding elements in array
+console.log("finding elements in array")
+
+console.log("using Indexof")
+console.log(fruits.indexOf("apple"));
+
+console.log("using includes")
+console.log(fruits.includes("apple"));
