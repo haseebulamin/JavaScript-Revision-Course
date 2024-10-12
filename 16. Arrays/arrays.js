@@ -14,3 +14,11 @@ console.log("print array with for-of")
 for(let i of fruits){
     console.log(i);
 }
+
+// array with new keyword
+console.log("array with new keyword")
+
+let abc = new Array("A","B","C","D");
+for(let i of abc){
+    console.log(i);
+}
