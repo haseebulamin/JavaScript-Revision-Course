@@ -22,3 +22,7 @@ let abc = new Array("A","B","C","D");
 for(let i of abc){
     console.log(i);
 }
+
+// properties
+console.log("array property | length")
+console.log(abc.length);
