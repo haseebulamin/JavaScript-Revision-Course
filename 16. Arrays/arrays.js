@@ -26,3 +26,22 @@ for(let i of abc){
 // properties
 console.log("array property | length")
 console.log(abc.length);
+
+// methods
+console.log("array methods")
+
+console.log("push")
+fruits.push("graps")
+console.log(fruits);
+
+console.log("pop")
+fruits.pop()
+console.log(fruits);
+
+console.log("unshift")
+fruits.unshift("graps")
+console.log(fruits);
+
+console.log("shift")
+fruits.shift()
+console.log(fruits);
