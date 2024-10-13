@@ -54,3 +54,7 @@ console.log(fruits.indexOf("apple"));
 
 console.log("using includes")
 console.log(fruits.includes("apple"));
+
+console.log(" Creates a new array")
+let longFruits = fruits.filter(fruits => fruits.length > 5);
+console.log(longFruits); // ['banana']
