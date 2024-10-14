@@ -64,3 +64,32 @@ console.log("foreach loop");
 fruits.forEach((fruits)=>{
     console.log(fruits);
 })
+
+// Transforming Arrays
+console.log("Transforming Arrays");
+let upperFruits = fruits.map(fruit => fruit.toUpperCase());
+console.log(upperFruits);
+
+// Multi-dimensional Arrays
+console.log("Multi-dimensional Arrays");
+let matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+  ];
+console.log(matrix[1][2]);
+
+// Sorting and Reversing Arrays
+console.log("Sorting and Reversing Arrays")
+let num = [3,5,2,6];
+console.log("sort", num.sort());
+console.log("reverse", num.reverse());
+
+// Checking if a Value is an Array
+console.log("Checking if a Value is an Array")
+console.log(Array.isArray("4"));
+
+// Emptying an Array
+console.log("Emptying an Array");
+fruits.length = 0
+console.log(fruits);
