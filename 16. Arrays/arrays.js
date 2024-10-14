@@ -58,3 +58,9 @@ console.log(fruits.includes("apple"));
 console.log(" Creates a new array")
 let longFruits = fruits.filter(fruits => fruits.length > 5);
 console.log(longFruits); // ['banana']
+
+// foreach loop in js
+console.log("foreach loop");
+fruits.forEach((fruits)=>{
+    console.log(fruits);
+})
