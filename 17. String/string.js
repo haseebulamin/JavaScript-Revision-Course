@@ -31,3 +31,10 @@ let con1 = "Good";
 let con2 = "Work";
 console.log(con1 + " " + con2);
 console.log(`${con1} ${con2}`);
+
+// string searching 
+let js = "JavaScript counts positions from zero.";
+console.log("index of: " + js.indexOf("counts"))
+console.log("lastIndexOf: " + js.lastIndexOf("zero"))
+console.log("search: " + js.search("from"))
+console.log("match: " + js.match("from"))
