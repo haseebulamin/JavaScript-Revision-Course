@@ -24,3 +24,10 @@ console.log( "index of:  ", methods.indexOf('one'));
 console.log( "slice:  ", methods.slice(0,2));
 console.log( "replace:  ", methods.replace("one", "Work"));
 console.log( "split:  ", methods.split(","));
+
+// Concatenating Strings
+console.log("Concatenating Strings")
+let con1 = "Good";
+let con2 = "Work";
+console.log(con1 + " " + con2);
+console.log(`${con1} ${con2}`);
