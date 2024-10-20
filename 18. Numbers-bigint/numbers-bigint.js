@@ -26,3 +26,12 @@ console.log(z);
 console.log("typeof x:", typeof(x));
 console.log("typeof y:", typeof(y));
 console.log("typeof z:", typeof(z));
+
+// number method
+console.log("number method");
+let nbr = 5703;
+let str = nbr.toString();
+console.log("nmbr to str: ", typeof(str));
+let num2 = 9.65686;
+let a = num2.toFixed(2);
+console.log("fixed: ", a)
