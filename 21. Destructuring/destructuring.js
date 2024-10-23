@@ -49,3 +49,12 @@ console.log("|-- Default Values")
 let {address: {tehsil}, role = "Web Developer"} = person;
 console.log(tehsil);
 console.log(role);
+
+// Function Parameters
+console.log("Function Parameters")
+
+function hello({name, age}) {
+    console.log(name);
+    console.log(age);
+}
+hello(person);
