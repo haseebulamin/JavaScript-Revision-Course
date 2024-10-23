@@ -36,3 +36,8 @@ let {name,age,address} = person;
 console.log(name);
 console.log(age);
 console.log(address);
+
+let {sex, address: {city,district}} = person;
+console.log(sex);
+console.log(city);
+console.log(district);
