@@ -23,7 +23,7 @@ console.log(" | End | ");
 
 
 // Callback Hell
-document.write("Callback Hell")
+console.log("Callback Hell")
 
 setTimeout(() => {
     alert("set in 2000");
@@ -34,3 +34,13 @@ setTimeout(() => {
         }, 2000);
     }, 2000);
 }, 2000);
+
+
+// Callback with Array Methods
+console.log("Callback with Array Methods")
+
+let arr = [1,2,3,4,5];
+
+arr.forEach((num)=>{
+    console.log(num+10);
+})
