@@ -11,6 +11,7 @@ function funcForcallback(callback) {
 
 funcForcallback(greet);
 
+
 // setTimeOut as Callback
 console.log(" | Start | ");
 
@@ -19,3 +20,17 @@ setTimeout(() => {
 }, 3000);
 
 console.log(" | End | ");
+
+
+// Callback Hell
+document.write("Callback Hell")
+
+setTimeout(() => {
+    alert("set in 2000");
+    setTimeout(() => {
+        alert("set in next 2000");
+        setTimeout(() => {
+            alert("set in too next 2000");
+        }, 2000);
+    }, 2000);
+}, 2000);
