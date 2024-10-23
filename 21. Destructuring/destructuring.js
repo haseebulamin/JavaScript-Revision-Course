@@ -58,3 +58,9 @@ function hello({name, age}) {
     console.log(age);
 }
 hello(person);
+
+// Renaming Properties
+console.log("Renaming Properties")
+let {name: myname, age: myage} = person;
+console.log(myname);
+console.log(myage);
