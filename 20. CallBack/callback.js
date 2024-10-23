@@ -10,3 +10,12 @@ function funcForcallback(callback) {
 }
 
 funcForcallback(greet);
+
+// setTimeOut as Callback
+console.log(" | Start | ");
+
+setTimeout(() => {
+    alert("SetTime out is running.")
+}, 3000);
+
+console.log(" | End | ");
