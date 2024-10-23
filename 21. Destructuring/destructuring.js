@@ -17,3 +17,22 @@ let [,,three,four,five] = numbers2;
 console.log(three);
 console.log(four);
 console.log(five);
+
+// Object destructuring
+console.log("Object destructuring");
+
+let person = {
+    name: "Haseeb",
+    age: 18,
+    sex: "male",
+    address: {
+        city: "Jakhar",
+        tehsil: "Kamalia",
+        district: "Toba Tek Singh"
+    }
+}
+
+let {name,age,address} = person;
+console.log(name);
+console.log(age);
+console.log(address);
