@@ -26,3 +26,33 @@ function add(a,b,c) {
 }
 let arr1 = [3,6,11];
 add(...arr1);
+
+//  Rest Operator
+console.log("2.  Rest Operator");
+
+// Rest with Arrays
+console.log("Rest with Arrays");
+let arr3 = [1,2,3,4,5,6];
+let [one,two,...Rest] = arr3;
+console.log(one)
+console.log(two)
+console.log(...Rest);
+
+// Rest with Object
+console.log("Rest with Object");
+let obj2 = {
+    name: "haseeb ul amin",
+    age: 18,
+    sex: "male"
+};
+let { name, ...other } = obj2;
+console.log(name)
+console.log(other);
+
+// Rest with Function Parameters
+console.log("Rest with Function Parameters");
+
+function print(...number) {
+    console.log(number);
+}
+print(1,2,3,4,5);
