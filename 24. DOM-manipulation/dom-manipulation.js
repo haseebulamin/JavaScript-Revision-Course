@@ -8,6 +8,7 @@ let classs = document.getElementsByClassName("class");
 let tag = document.getElementsByTagName("p");
 let querySelector = document.querySelector(".querySelector");
 let querySelectorAll = document.querySelectorAll(".querySelectorAll");
+const image = document.querySelector("img");
 
 // prints
 console.log(id);
@@ -22,3 +23,9 @@ console.log("Style");
 id.style.backgroundColor = "red";
 console.log("update");
 id.textContent = "Update id";
+
+// 3. Modifying Attributes
+console.log("3. Modifying Attributes")
+image.setAttribute('src', 'pure.png')
+console.log(image.getAttribute('src'))
+image.removeAttribute('alt');
