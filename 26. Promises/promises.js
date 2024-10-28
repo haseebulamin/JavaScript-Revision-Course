@@ -1,7 +1,12 @@
 // promises
 
-function promises() {
-    console.log("Promise")
-}
+const myPromise = new Promise((resolve, reject)=>{
+  let success = false;
 
-promises();
+  if(success){
+    resolve(console.log("Process resolved."))
+  }
+  else{
+    reject(console.log("Process Rejected."))
+  }
+})
