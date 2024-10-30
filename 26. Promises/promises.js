@@ -14,7 +14,7 @@ const myPromise = new Promise((resolve, reject)=>{
 
 // 
 function myDisplayer(some) {
-  document.getElementById("demo").innerHTML = some;
+  document.getElementById("demo1").innerHTML = some;
 }
 
 let myPromise1 = new Promise(function(myResolve, myReject) {
@@ -33,3 +33,11 @@ myPromise1.then(
   function(value) {myDisplayer(value);},
   function(error) {myDisplayer(error);}
 );
+
+
+// use callback for promise 
+setTimeout(function() { myFunction("I love You !!!"); }, 3000);
+
+function myFunction(value) {
+  document.getElementById("demo2").innerHTML = value;
+}
