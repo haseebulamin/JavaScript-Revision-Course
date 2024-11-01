@@ -47,3 +47,7 @@ function myFunction(value) {
 setTimeout(() => {
   document.getElementById("demo3").innerHTML = "I love You theodore!!!";
 },4000);
+
+setTimeout(() => {
+  document.getElementById("demo4").innerHTML = "I love You mahh theodore!!!";
+},5000);
