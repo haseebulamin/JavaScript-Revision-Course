@@ -56,3 +56,8 @@ setTimeout(() => {
   document.getElementById("demo5").innerHTML = "I love You mahh cute theodore!!!";
 },6000);
 
+
+setTimeout(() => {
+  document.getElementById("demo6").innerHTML = "I love You mahh lovishh theodore!!!";
+},7000);
+
