@@ -18,3 +18,16 @@ myPromise
   .catch((error) => {
     console.error("error aa gya"); // Output (if rejected): "The operation failed!"
   });
+
+  // promise all 
+const promise1 = Promise.resolve("Promise 1 resolved");
+const promise2 = Promise.resolve("Promise 2 resolved");
+const promise3 = Promise.resolve("Promise 3 resolved");
+
+Promise.all([promise1, promise2, promise3])
+    .then((results) => {
+        console.log("All promises resolved:", results);
+    })
+    .catch((error) => {
+        console.error("One of the promises failed:", error);
+    });
