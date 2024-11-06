@@ -31,3 +31,13 @@ Promise.all([promise1, promise2, promise3])
     .catch((error) => {
         console.error("One of the promises failed:", error);
     });
+
+    // promise race 
+
+const fastPromise = new Promise((resolve) => setTimeout(resolve, 100, "Fast Promise"));
+const slowPromise = new Promise((resolve) => setTimeout(resolve, 500, "Slow Promise"));
+
+Promise.race([fastPromise, slowPromise])
+    .then((result) => {
+        console.log("Race winner:", result); 
+    });
