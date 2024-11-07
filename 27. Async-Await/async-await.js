@@ -22,3 +22,48 @@ async function fetch() {
 
 fetch();
 
+// Real-world Example: Fetching Data with Async/Await
+console.log("Real-world Example: Fetching Data with Async/Await");
+
+async function useGetDate() {
+    try {
+        const response = await fetch("https://jsonplaceholder.typicode.com/users/1");
+        const data = await response.json();
+        console.log("data fetched:", data)
+    } 
+    catch (error) {
+      console.log("Error Fetched: ", error);  
+    }
+}
+
+useGetDate();
+
+// Handling Multiple Async Calls
+console.log("Handling Multiple Async Calls");
+
+async function userData() {
+    const data1 = await fetch("https://jsonplaceholder.typicode.com/users/1").then(res => res.json());
+    const data2 = await fetch("https://jsonplaceholder.typicode.com/users/2").then(res => res.json());
+
+    console.log("Data 1 fetched: ", data1);
+    console.log("Data 2 fetched: ", data2);
+}
+
+userData();
+
+// Error Handling with Async/Await
+console.log("Error Handling with Async/Await");
+
+async function userGetDate() {
+    try {
+        const response = await fetch("https://jsonplaceholder.typicode.com/users/1");
+        if(!response.ok) throw new Error("Error get in response.");
+        const data = await response.json();
+        console.log("data fetched:", data)
+    } 
+    catch (error) {
+      console.log("Error Fetched: ", error);  
+    }
+}
+
+userGetDate();
