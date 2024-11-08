@@ -67,3 +67,18 @@ async function userGetDate() {
 }
 
 userGetDate();
+console.log("Error Handling with Async/Await");
+
+async function userGetDate() {
+    try {
+        const response = await fetch("https://jsonplaceholder.typicode.com/users/1");
+        if(!response.ok) throw new Error("Error get in response.");
+        const data = await response.json();
+        console.log("data fetched:", data)
+    } 
+    catch (error) {
+      console.log("Error Fetched: ", error);  
+    }
+}
+
+userGetDate();
