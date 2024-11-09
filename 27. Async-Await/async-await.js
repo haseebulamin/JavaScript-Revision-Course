@@ -82,3 +82,9 @@ async function userGetDate() {
 }
 
 userGetDate();
+
+let asy = document.getElementById("async");
+
+asy.style.backgroundColor = "tomato";
+asy.style.padding = "100px";
+asy.style.textAlign = "center";
