@@ -88,3 +88,7 @@ let asy = document.getElementById("async");
 asy.style.backgroundColor = "tomato";
 asy.style.padding = "100px";
 asy.style.textAlign = "center";
+
+asy.style.color = "green";
+asy.style.fontSize = "100px"
+asy.style.fontWeight = "800";
