@@ -82,21 +82,3 @@ async function userGetDate() {
 }
 
 userGetDate();
-
-let asy = document.getElementById("async");
-let await = document.getElementById("await");
-
-asy.style.backgroundColor = "tomato";
-asy.style.padding = "50px";
-asy.style.textAlign = "center";
-
-asy.style.color = "green";
-asy.style.fontSize = "50px"
-asy.style.fontWeight = "800";
-
-await.style.backgroundColor = "tomato";
-await.style.padding = "50px";
-await.style.textAlign = "center";
-await.style.fontWeight = "800";
-await.style.color = "green";
-await.style.fontSize = "50px"
