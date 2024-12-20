@@ -5,3 +5,12 @@ const greeting = ()=>{
 }
 
 greeting();
+
+let a = 10;
+
+console.log("This is hoisting", a);
+
+document.addEventListener("DOMContentLoaded", () => {
+    let title = document.getElementById("title");
+    title.style.backgroundColor = "red";
+  });
