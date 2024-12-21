@@ -14,3 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
     let title = document.getElementById("title");
     title.style.backgroundColor = "red";
   });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    let title = document.getElementById("title");
+    title.style.backgroundColor = "orange";
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    let title = document.getElementById("title");
+    title.style.backgroundColor = "green";
+  });
