@@ -15,12 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
     title.style.backgroundColor = "red";
   });
 
-  document.addEventListener("DOMContentLoaded", () => {
-    let title = document.getElementById("title");
-    title.style.backgroundColor = "orange";
-  });
+  let b =6;
+  let c =6;
+  let d =6;
 
-  document.addEventListener("DOMContentLoaded", () => {
-    let title = document.getElementById("title");
-    title.style.backgroundColor = "green";
-  });
+  let e = b+c+d;
+  console.log(e);
