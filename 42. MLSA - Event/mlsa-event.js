@@ -21,3 +21,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let e = b+c+d;
   console.log(e);
+
+
+  // JavaScript code for a simple to-do list application
+
+// Select DOM elements
+const todoInput = document.querySelector("#todoInput");
+const addButton = document.querySelector("#addButton");
+const todoList = document.querySelector("#todoList");
+
+// Add a new task
+addButton.addEventListener("click", () => {
+  const task = todoInput.value.trim();
+  if (task) {
+    addTask(task);
+    todoInput.value = ""; // Clear the input field
+  }
+});
+
+// Function to add a new task
+function addTask(taskText) {
+  const listItem = document.createElement("li");
+  listItem.textContent = taskText;
+
+  const deleteButton = document.createElement("button");
+  deleteButton.textContent = "Delete";
+  deleteButton.addEventListener("click", () => {
+    listItem.remove();
+  });
+
+  listItem.appendChild(deleteButton);
+  todoList.appendChild(listItem);
+}
